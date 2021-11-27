@@ -10655,10 +10655,13 @@ body {
   font-size: 16px;
   letter-spacing: 0.3px;
   color: #183B56;
- /* background: #ecf1f9; */
+ /* background: #ecf1f9; 
  background: rgb(17,20,38);
  background: radial-gradient(circle, rgba(17,20,38,1) 49%, rgba(66,72,74,1) 100%);}
+*/
+background-color: #000;
 
+}
 @media screen and (max-width: 768px) {
   body {
     font-size: 15.5px;
@@ -13437,6 +13440,8 @@ label:active:after {
   overflow: hidden;
 }
 
+
+
 .collections .collections_item img {
   width: 100%;
   -webkit-box-shadow: 0px 17px 13px 0px #192c4b05;
@@ -13633,7 +13638,7 @@ label:active:after {
 .header__1 {
   position: relative;
   background: #000;
-  border-bottom: solid 1px #e2eef1;
+  border-bottom: solid 1px #333;
   width: 100%;
   white-space: nowrap;
 }
@@ -14100,7 +14105,8 @@ label:active:after {
   position: absolute;
 
   left: 0;
-  background: url(../img/effects/bg.jpg);  
+ /* background: url(../img/effects/bg.jpg);  */
+ background-color: #000;
   width: 350%;
   height: 180%;
   background-repeat: no-repeat;
@@ -14370,8 +14376,10 @@ label:active:after {
 .footer__1 {
   padding: 100px 0 50px;
   margin-top: 100px;
-  border-top: 1px solid #e2eef1;
-  background:#000;
+  border-top: 1px solid #333;
+  /* 
+  background: radial-gradient(100.04% 100.76% at 50.49% -0.76%, #29436d 0%, #050911 100%);
+*/
 
 }
 
